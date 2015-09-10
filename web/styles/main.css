@@ -8,9 +8,7 @@ html{
   margin: 25px;
 }
 
-div {
-  -moz-box-shadow: 0 0 10px 10px #000000;
-  -webkit-box-shadow: 0 0 10px 10px #000000;
+.page {
   box-shadow: 0 0 10px 10px #000000;
   margin-left: auto;
   margin-right: auto;
@@ -25,18 +23,22 @@ main {
   padding:10px;
   padding-top: 0px;
   padding-bottom: 0px;
+  width: 620px;
+  float: right;
+
 }
 
 .pumpkin {
   float:left;
+ 
 }
 
 header {
-  text-indent: 50px;
+  text-indent: 30px;
   border-bottom-color: black;
   border-bottom-style: solid;
-  margin: 0;
   background: linear-gradient(45deg, white, orange 75%, black);
+  padding: 10px 0 10px 10px;
 }
 
 .heading {
@@ -49,6 +51,15 @@ header {
 }
 
 .welcome {
+  font-size: 1.5em;
+  padding: 0;
+  margin: 10px 0 0 0;
+  
+}
+
+.stay{
+  padding: 0;
+  margin: 0;
   font-size: 1.5em;
 }
 
@@ -73,6 +84,11 @@ li {
   margin:0 0 5px 0;
 }
 
+.sidebar{
+    width: 160px;
+    float: left;
+}
+
 
 .guarantee {
   font-size: 1.5em;
@@ -86,4 +102,5 @@ footer {
   margin: 0;
   padding: 5px;
   background: linear-gradient(45deg, black, orange 75%, white);
+  clear: both;
 }
