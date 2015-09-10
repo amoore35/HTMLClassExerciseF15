@@ -3,29 +3,57 @@ Copyright (c) 2015 Alexia I. L. Moore
 */
 
 body {
-    
+  font-family: sans-serif;
 }
 
-header {
-    
+.pumpkin {
+  float:left;
 }
 
-main {
-    
+.heading {
+  text-indent: 50px;
+  color: orange;
+  text-shadow: 2px 2px #000000;
+  font-size: 250%;
 }
 
-.welcome{
-  font-size: 2em;
+.slogan {
+  text-indent: 50px;
+  font-size: 120%;
+  font-weight: bold;
 }
 
-.categories{
-  font-size: 2em;
+.welcome {
+  font-size: 1.5em;
 }
 
-.guarantee{
-  font-size: 2em;
+.welcome::first-letter {
+  font-size: 200%;
 }
 
-.footer{
-    
+.categories {
+  font-size: 1.5em;
+}
+
+a {
+  font-weight: bold;
+  color: orange;
+}
+
+a:hover {
+  color: green;
+}
+
+li {
+    margin:0 0 5px 0;
+}
+
+
+.guarantee {
+  font-size: 1.5em;
+}
+
+footer {
+  text-align: center;
+  font-size: smaller;
 }
