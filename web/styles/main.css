@@ -71,16 +71,61 @@ header {
   font-size: 1.5em;
 }
 
-a {
+.toplink{
+  display: block;
+  width: 140px;
+  padding: 4px;
+  margin: 0;
+  text-align: center;
+  background-color: #000000;
+  color: #FFF;
   font-weight: bold;
+  text-decoration: none;
+}
+
+.toplink:hover{
+  background-color: #999;
+  color: #000000;
+}
+
+#homelink{
   color: orange;
 }
 
-a:hover {
-  color: green;
+.sidelink{
+  display: block;
+  width: 100px;
+  padding: 6px;
+  background-color: orange;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+  border-color: black;
+  border-style: solid;
 }
 
-li {
+#cat{
+  color: orange;
+  font-weight: bold;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.horizontal{
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.horizontalul{
+  padding: 0;
+  margin: 0;
+}
+
+.side {
   margin:0 0 5px 0;
 }
 

@@ -7,8 +7,8 @@ Copyright (c) 2016 Alexia I. L. Moore
     <title>Halloween Store</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="styles/main.css">
       <link rel="stylesheet" href="styles/normalize.css">
+      <link rel="stylesheet" href="styles/main.css">
   </head>
 
   <body>
@@ -19,12 +19,21 @@ Copyright (c) 2016 Alexia I. L. Moore
 
         <h2 class="slogan">For the little Goblin in all of us!</h2>
       </header>
+      <nav class="navbar">
+        <ul class="horizontalul">
+            <li class="horizontal"><a class="toplink" id="homelink" href="index.html" title="Home">Home</a></li> 
+            <li class="horizontal"><a class="toplink" href="index.html" title="Product List">Product List</a></li> 
+            <li class="horizontal"><a class="toplink" href="index.html" title="Personal">Personal</a></li> 
+            <li class="horizontal"><a class="toplink" href="index.html" title="Decorating Ideas">Decorating Ideas</a></li> 
+            <li class="horizontal"><a class="toplink" href="index.html" title="Join Email">Join Email</a></li> 
+        </ul> 
+      </nav>
       <nav class="sidebar">
         <ul>
-          <li><a href="products/props.html" title="props">Props</a></li>
-          <li><a href="products/costumes.html" title="costumes">Costumes</a></li>
-          <li><a href="products/special_effects.html" title="special effects">Special Effects</a></li>
-          <li><a href="products/masks.html" title="masks">Masks</a></li>
+          <li class="side"><a class="sidelink" href="products/props.html" title="Props">Props</a></li>
+          <li class="side"><a class="sidelink" href="products/costumes.html" title="Costumes">Costumes</a></li>
+          <li class="side"><a class="sidelink" href="products/special_effects.html" title="Special FX">Special FX</a></li>
+          <li class="side"><a class="sidelink" href="products/masks.html" title="Masks">Masks</a></li>
         </ul>
       </nav>
       <main>
@@ -35,8 +44,8 @@ Copyright (c) 2016 Alexia I. L. Moore
         <p>I started this website because Halloween has always been my favorite holiday. But during the last year, I started selling some of my favorite Halloween products, and they've become quite a hit.</p>
         <p>If you click on the Personal link, you can browse my favorite Halloween pictures, stories, and films. And if you join my email list, I will keep you up-to-date on all things Halloween.</p>   
         <h2 class="product">Product of the week</h2>
-          <img src="images/cat1.jpg" width="154" height="122" alt="Deranged cat" class="cat">
-          <p><a href="products/cat.html" title="cat">20&QUOT; Deranged cat</a></p>
+        <a href="products/cat.html" title="Cat"><img src="images/cat1.jpg" width="154" height="122" alt="Deranged cat" class="cat"></a>
+          <p><a id="cat" href="products/cat.html" title="Cat">20&QUOT; Deranged cat</a></p>
         <h3 class="guarantee">My guarantee</h3>
         <p>If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund. <b>No questions asked!</b></p>	
       </main>
