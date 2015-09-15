@@ -1,0 +1,161 @@
+/*
+Copyright (c) 2015 Alexia I. L. Moore
+*/
+
+html{
+  background: url('../images/bats.gif');
+  padding: 25px;
+  margin: 25px;
+}
+
+.page {
+  box-shadow: 0 0 10px 10px #000000;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  background-color: white;
+  font-family: sans-serif;
+  border-color: black;
+}
+#rightsidebar{
+  float: right;
+}
+
+main {
+  padding:10px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin-right: 0;
+  width: 600px;
+  
+}
+
+.sidepics{
+  width: 70px;
+  height: 70px;
+}
+
+.rightlinks{
+  color: black;
+}
+
+.rightlinks:hover{
+  color: green;
+}
+
+h3{
+  font-size: 1em;
+  padding: 10px;
+}
+
+.pumpkin {
+  float:left;
+}
+
+header {
+  text-indent: 30px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  background: linear-gradient(45deg, white, orange 75%, black);
+  padding: 10px 0 10px 10px;
+}
+
+.heading {
+  margin: 0;
+}
+
+.slogan {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.categories {
+  font-size: 1.5em;
+}
+
+.toplink{
+  display: block;
+  padding: 4px;
+  margin: 0;
+  text-align: center;
+  background-color: #000000;
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.toplink:hover{
+  background-color: #999;
+  color: #000000;
+}
+
+.sidelink{
+  display: block;
+  width: 100px;
+  padding: 6px;
+  background-color: orange;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+  border-color: black;
+  border-style: solid;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.horizontal{
+  float: left;
+  padding: 0;
+  margin: 0;
+  width: 20%;
+}
+
+.horizontalul{
+  padding: 0;
+  margin: 0;
+}
+
+.side {
+  margin:0 0 5px 0;
+}
+
+#leftsidebar{
+    padding-right: 0;
+    float: left;
+    width: 160px;
+}
+
+#rightsidebar{
+   width: 180px;
+   background: #F5DEB3;
+   margin: 0;
+}
+
+footer {
+  text-align: center;
+  font-size: smaller;
+  border-top-color: black;
+  border-top-style: solid;
+  margin: 0;
+  padding: 5px;
+  background: linear-gradient(45deg, black, orange 75%, white);
+  clear: both;
+}
+
+
+.cat{
+   float: left;
+   padding-right: 20px;
+   
+}
+
+.catinfo{
+   overflow: hidden;
+}
+
+
+
+
