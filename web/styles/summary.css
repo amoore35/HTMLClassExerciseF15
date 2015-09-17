@@ -1,5 +1,5 @@
 /*
-Copyright (c) 2015 Alexia I. L. Moore
+Copyright (c) 2015 Alexia Moore
 */
 
 html{
@@ -16,7 +16,6 @@ html{
   background-color: white;
   font-family: sans-serif;
   border-color: black;
-
 }
 
 main {
@@ -44,28 +43,6 @@ header {
 .heading {
   margin: 0;
 }
-.slogan {
-  font-size: 1em;
-  font-weight: bold;
- 
-}
-
-.welcome {
-  font-size: 1.5em;
-  padding: 0;
-  margin: 10px 0 0 0;
-  
-}
-
-.stay{
-  padding: 0;
-  margin: 0;
-  font-size: 1.5em;
-}
-
-.welcome::first-letter {
-  font-size: 200%;
-}
 
 .categories {
   font-size: 1.5em;
@@ -87,10 +64,6 @@ header {
   color: #000000;
 }
 
-#homelink{
-  color: orange;
-}
-
 .sidelink{
   display: block;
   width: 100px;
@@ -103,24 +76,19 @@ header {
   border-style: solid;
 }
 
-#cat{
-  color: orange;
-  font-weight: bold;
-}
-
-ul{
+ul {
   list-style-type: none;
   padding-left: 20px;
 }
 
-.horizontal{
+.horizontal {
   float: left;
   padding: 0;
   margin: 0;
   width: 20%;
 }
 
-.horizontalul{
+.horizontalul {
   padding: 0;
   margin: 0;
 }
@@ -129,14 +97,9 @@ ul{
   margin:0 0 5px 0;
 }
 
-.sidebar{
+.sidebar {
     width: 160px;
     float: left;
-}
-
-
-.guarantee {
-  font-size: 1.5em;
 }
 
 footer {
@@ -148,4 +111,44 @@ footer {
   padding: 5px;
   background: linear-gradient(45deg, black, orange 75%, white);
   clear: both;
+}
+
+#currentlink {
+   color: orange;
+}
+
+figcaption {
+  text-align: center;
+  font-weight: bold;
+}
+
+th {
+  text-align: left;
+}
+
+
+.left {
+   font-weight: bold;
+   text-align: left;
+   vertical-align: top;
+}
+
+td {
+  padding: 5px 0 5px 0;
+}
+
+table, 
+figure {
+    width: 450px;
+    padding: 10px;
+}
+
+td:last-child, 
+th:last-child {
+  background-color: #F5DEB3;
+  text-align: right;
+}
+
+a {
+  color: black;
 }
