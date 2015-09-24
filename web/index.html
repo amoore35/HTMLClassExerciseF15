@@ -8,7 +8,7 @@ Copyright (c) 2016 Alexia I. L. Moore
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="styles/normalize.css">
-      <link rel="stylesheet" href="styles/main.css">
+      <link rel="stylesheet" href="styles/main_rwd.css">
   </head>
 
   <body>
@@ -19,8 +19,11 @@ Copyright (c) 2016 Alexia I. L. Moore
 
         <h2 class="slogan">For the little Goblin in all of us!</h2>
       </header>
+      <nav class="menubar">
+        <a id="mobilemenu">MENU &#9776;</a>
+      </nav>
       <nav class="navbar">
-        <ul class="horizontalul">
+        <ul class="horizontalul" id="ulhorizontal">
             <li class="horizontal"><a class="toplink" id="homelink" href="index.html" title="Home">Home</a></li> 
             <li class="horizontal"><a class="toplink" href="products/index.html" title="Product List">Product List</a></li> 
             <li class="horizontal"><a class="toplink" href="index.html" title="Personal">Personal</a></li> 
@@ -28,14 +31,7 @@ Copyright (c) 2016 Alexia I. L. Moore
             <li class="horizontal"><a class="toplink" href="email.html" title="Join Email">Join Email</a></li> 
         </ul> 
       </nav>
-      <nav class="sidebar">
-        <ul>
-          <li class="side"><a class="sidelink" href="products/props.html" title="Props">Props</a></li>
-          <li class="side"><a class="sidelink" href="products/costumes.html" title="Costumes">Costumes</a></li>
-          <li class="side"><a class="sidelink" href="products/special_effects.html" title="Special FX">Special FX</a></li>
-          <li class="side"><a class="sidelink" href="products/masks.html" title="Masks">Masks</a></li>
-        </ul>
-      </nav>
+      
       <main>
         <div>
           <h1 class="welcome">Welcome to my site.</h1>
@@ -49,9 +45,18 @@ Copyright (c) 2016 Alexia I. L. Moore
         <h3 class="guarantee">My guarantee</h3>
         <p>If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund. <b>No questions asked!</b></p>	
       </main>
+      <nav class="sidebar">
+        <ul class="sideul">
+          <li class="side"><a class="sidelink" href="products/props.html" title="Props">Props</a></li>
+          <li class="side"><a class="sidelink" href="products/costumes.html" title="Costumes">Costumes</a></li>
+          <li class="side"><a class="sidelink" href="products/special_effects.html" title="Special FX">Special FX</a></li>
+          <li class="side"><a class="sidelink" href="products/masks.html" title="Masks">Masks</a></li>
+        </ul>
+      </nav>
       <footer>
         <p>&COPY; 2016 Ben Murach</p>
       </footer>
     </div>
+    <script src="js/hamburger.js"></script>
   </body>
 </html>

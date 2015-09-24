@@ -1,0 +1,236 @@
+/*
+Copyright (c) 2015 Alexia I. L. Moore
+*/
+
+#mobilemenu{
+    display: none;
+}
+
+html{
+  background: url('../images/bats.gif');
+  margin: 1em;
+}
+
+.page {
+  box-shadow: 0 0 .5em .5em #000000;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  max-width: 960px;
+  background-color: white;
+  font-family: sans-serif;
+  border-color: black;
+
+}
+
+main {
+  padding-top: 0em;
+  padding-bottom: 0em;
+  width: 80%;
+  float: right;
+
+}
+
+.pumpkin {
+  float:left;
+  min-width: 40px;
+  width: 10%;
+  height: 10%;
+  max-width: 100%;
+}
+
+header {
+  text-indent: 2em;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  background: linear-gradient(45deg, white, orange 75%, black);
+  padding: .5em 0 .5em .5em;
+}
+
+.heading {
+  margin: 0em;
+}
+.slogan {
+  font-size: 1em;
+  font-weight: bold;
+ 
+}
+
+.welcome {
+  font-size: 1.5em;
+  padding: 0em;
+  margin: .5em 0em 0em 0em;
+  
+}
+
+.stay{
+  padding: 0em;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.welcome::first-letter {
+  font-size: 200%;
+}
+
+.categories {
+  font-size: 1.5em;
+}
+
+.toplink{
+  display: block;
+  padding: .3em;
+  margin: 0em;
+  text-align: center;
+  background-color: #000000;
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.toplink:hover{
+  background-color: #999;
+  color: #000000;
+}
+
+#homelink{
+  color: orange;
+}
+
+.sidelink{
+  display: block;
+  width: 90%;
+  min-width: 90%;
+  padding: .3em;
+  background-color: orange;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+  border-color: black;
+  border-style: solid;
+}
+
+#cat{
+  color: orange;
+  font-weight: bold;
+}
+
+.cat{
+  width: 20%;
+  height: 20%;
+  max-width: 100%;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 1em;
+}
+
+.horizontal{
+  float: left;
+  padding: 0em;
+  margin: 0em;
+  width: 20%;
+}
+
+.horizontalul{
+  padding: 0em;
+  margin: 0em;
+}
+
+.side {
+  margin:0em 0em .3em 0em;
+}
+
+.sidebar{
+    width: 18%;
+    float: left;
+}
+
+.guarantee {
+  font-size: 1.5em;
+}
+
+footer {
+  text-align: center;
+  font-size: smaller;
+  border-top-color: black;
+  border-top-style: solid;
+  margin: 0em;
+  padding: .3em;
+  background: linear-gradient(45deg, black, orange 75%, white);
+  clear: both;
+}
+
+@media only screen and (max-width: 800px){
+    html{
+      background: none;
+    }
+    
+    .page{
+      box-shadow: none;
+      border-color: black;
+      border-style: solid;
+      font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    
+    #mobilemenu{
+        text-align: right;
+        display: block;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        display: block;
+        padding: .3em;
+        padding-right: 1.5em;
+        margin: 0em;
+    }
+    
+    .horizontalul{
+        display: block;
+        position: absolute;
+        transform: translate(-500px, 0px);
+        width: 100%;
+    }
+    
+    #ulhorizontal.open{
+        transform: translate(0px, 0px);
+    }
+    
+    .horizontal{
+        float: none;
+    }
+    
+    main{
+        width: 95%;
+        margin: 1em 1em 1em 1em;
+    }
+    
+    .sidebar{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .sideul{
+        width: 20%;
+        min-width: 100px;
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 479px){
+    .heading{
+      font-size: 25px;   
+      clear: both;
+    }
+    
+    .slogan,
+    .welcome,
+    .stay{
+      font-size: 20px;
+    }
+}
